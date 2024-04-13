@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/OIG2.QfgB0.P0rwnlBzDWhiW5?w=1024&h=1024&rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+header{
+    background-image: url(/Multimedia/Galeria/01.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 30%;
+    max-width:100%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+header h1{
+    color: rgb(163, 125, 0);
+    text-shadow: 1px 1px black;
+    font-size: 7vw;
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px 0;
+}
+header p{
+    color: rgb(156, 0, 73);
+    margin: 10px;
+}
+header h2{
+    color: rgb(255, 253, 254);
+}
+.fondo{
+ position: absolute;   
+ top: 0%;
+ left: 0;
+ width: 100%;
+ z-index: -1;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    color: rgb(163, 125, 0);
+
+}
+.timer *{
+    margin: 10px;
+}
+
+section{
+    margin: 20px 0;
+}
