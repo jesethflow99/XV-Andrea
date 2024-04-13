@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 img{
-    width: 100%;
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -73,6 +73,9 @@ header h2{
 
 section{
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 .acomp{
     display: flex;
@@ -114,4 +117,65 @@ section{
     padding: 10px;
     margin: 20px;
 }
+.galeria{
+    height: 90vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 5px;
+    background-color: rgba(163, 125, 0, 0.219);
+    overflow-y: hidden;
+    margin: 20px 0;
+}
+.marco{
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 2px black;
+}
 
+.vestimenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00000050;
+    border: 2px solid white;
+    margin: 15px;
+    border-radius: 20px 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.vestimenta img{
+    height: fit-content;
+    width: 100%;
+    margin: 20px 0;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.asistencia form{
+    display: flex;
+    box-shadow: 2px 0 2px black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.asistencia form input{
+    height: 35px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 20px;
+    text-align: center;
+}
+.asistencia form input::placeholder{
+    color: #ffffffa9;
+
+}
