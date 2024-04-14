@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Great+Vibes&family=Quicksand:wght@300..700&family=Sacramento&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +25,7 @@ a{
     text-decoration: none;
 }
 header{
-    background-image: url(/Multimedia/Galeria/01.jpg);
+    background-image: url(/Multimedia/Galeria/02.jpg);
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
@@ -35,19 +38,29 @@ header{
     justify-content: space-between;
     overflow: hidden;
     margin-bottom: 30px;
+    box-shadow: 2px 0 3px 3px black;
 }
 
 
 header h1{
-    color: rgb(163, 125, 0);
-    text-shadow: 1px 1px black;
+    color: rgba(241, 185, 0, 0.986);
+    text-shadow: 1px 1px rgb(128, 128, 128);
     font-size: 7vw;
     width: 100%;
     margin: 20px 0;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
 }
 header p{
-    color: rgb(156, 0, 73);
+    color: rgb(255, 255, 255);
     margin: 10px;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    font-family: "Quicksand", sans-serif;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 10px;
+    border-radius: 20px 5px;
+    position: relative;
+    top: 10%;
 }
 header h2{
     color: rgb(163, 125, 0);
@@ -64,7 +77,10 @@ header h2{
     display: flex;
     flex-direction: column;
     color: rgb(163, 125, 0);
-
+    text-shadow: 0 1px rgb(0, 0, 0);
+    background-color: #00000050;
+    border-radius: 20px 0;
+    font-size: larger;
 }
 .timer *{
     margin: 10px;
@@ -85,8 +101,22 @@ section{
     margin: 20px;
     flex-basis: 150px;
     font-size: 20px;
-    color: rgb(163, 125, 0);
-    text-shadow: 1px 0 black;
+    color: rgb(146, 112, 0);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 20px;
+    border: solid;
+    box-shadow: 2px 2px 2px black;
+    align-content: center;
+}
+.chamb{
+    transform: rotate(20deg);
+}
+.padres{
+    transform: rotate(-20deg);
+}
+.padrinos{
+    transform: rotate(20deg);
 }
 .ubicaciones{
     color: rgb(163, 125, 0);
@@ -95,6 +125,7 @@ section{
     font-size: 20px;
     text-shadow: 1px 0 black;
     align-items: center;
+    
 
 }
 
@@ -102,6 +133,7 @@ section{
     color: white;
     font-size: 40px;
     text-shadow: 0 0 7px rgb(255, 0, 119);
+    
 }
 .boton a{
     text-align: center;
